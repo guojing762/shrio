@@ -81,8 +81,8 @@
 							onclick="location.href='${basePath}/user/index.shtml'" href="${basePath}/user/index.shtml" class="dropdown-toggle qqlogin" >
 							${token.nickname?default('阿西吧')}<span class="caret"></span></a>
 							<ul class="dropdown-menu" userid="${token.id}">
-								<li><a href="http://shiro.itboy.net/user/index.shtml">个人资料</a></li>
-								<li><a href="http://shiro.itboy.net/role/mypermission.shtml">我的权限</a></li>
+								<#--<li><a href="http://shiro.itboy.net/user/index.shtml">个人资料</a></li>-->
+								<#--<li><a href="http://shiro.itboy.net/role/mypermission.shtml">我的权限</a></li>-->
 								<li><a href="javascript:void(0);" onclick="logout();">退出登录</a></li>
 							</ul>
 						</@shiro.user>  

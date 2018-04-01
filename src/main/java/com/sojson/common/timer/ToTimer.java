@@ -14,7 +14,7 @@ import com.sojson.permission.service.RoleService;
  * 定时任务恢复数据
  *
  */
-@Component
+//@Component
 public class ToTimer{
 	
 	@Resource
